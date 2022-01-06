@@ -587,12 +587,8 @@ img {
   display: flex;
   align-items: baseline;
 }
-.footer-right-title {
-  padding-left: 156px;
-}
-.footer-social-list {
-  padding-left: 70px;
-}
+
 .footer-right {
   text-align: left;
+  margin-left: 156px;
 }
