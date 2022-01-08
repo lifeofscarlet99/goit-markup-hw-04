@@ -78,6 +78,7 @@ img {
 }
 .header-connect {
   margin-left: auto;
+  display: flex;
 }
 .header-logo {
   font-family: Raleway;
@@ -171,10 +172,8 @@ img {
   margin-right: 50px;
 }
 .header-social-icon {
-  display: flex;
   margin-right: 10px;
-  justify-content: center;
-  align-items: center;
+  fill: currentColor;
 }
 .contact-contact {
   margin-right: 50px;
@@ -187,6 +186,8 @@ img {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: #757575;
+  display: flex;
+  align-items: center;
 }
 
 /* -----HERO------- */
@@ -214,6 +215,24 @@ img {
   justify-content: center;
   align-items: center;
   margin-bottom: 30px;
+}
+
+.features-social-link:hover,
+.features-social-link:focus {
+  fill: var(--accent-color);
+  border: 1px solid #2196f3;
+}
+.features-social-icon {
+  fill: #afb1b8;
+}
+.features-social-icon:hover,
+.features-social-icon:focus {
+  fill: #2196f3;
+}
+.icon-features:hover,
+.icon-features:focus {
+  fill: #2196f3;
+  border: 1px solid #2196f3;
 }
 
 .features-item {
@@ -604,4 +623,20 @@ img {
 .footer-right {
   text-align: left;
   margin-left: 70px;
+}
+.address.address {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+}
+.link.tel {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
 }
